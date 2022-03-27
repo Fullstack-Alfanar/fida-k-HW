@@ -20,7 +20,8 @@
 ### save all number that user give until it takes zero then print all numbers oppsite way
 
 ## **Challenge question number 1**
-
+### a square of * in wanted size
 ## **Challenge question number 2**
-
+### a block of * in wanted size
 ## **Challenge question number 3**
+### a tringle of * in wanted size
