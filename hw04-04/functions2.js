@@ -55,8 +55,42 @@
 // }
 // printTringle(n);
 
+// /*----------------------------------------------------------------------------------------------------*/
+// /*question 5 */
+// let n = +prompt("enter number n:");
+// function printRow(len) {
+//     var arr = [];
+//     for (var i = 1; i <= len; i++)
+//         arr[i - 1] = "*";
+//     console.log(arr);
+// }
+// function printTringle(size) {
+//     for (var i = size; i >=1; i--) {
+//         printRow(i);
+//     }
+// }
+// printTringle(n);
+
+// /*----------------------------------------------------------------------------------------------------*/
+// /*question 6 */
+// let n = +prompt("enter number n:");
+// function printRow(len) {
+//     var arr = [];
+//     for (var i = 1; i <= len; i++)
+//         arr[i - 1] = i;
+//     for (var i = 1; i <= len; i++)
+//         arr.push("*");
+//     console.log(arr);
+// }
+// function printTringle(size) {
+//     for (var i = size; i >= 1; i--) {
+//         printRow(i);
+//     }
+// }
+// printTringle(n);
+
 /*----------------------------------------------------------------------------------------------------*/
-/*question 5 */
+/*question 7 */
 let n = +prompt("enter number n:");
 function printRow(len) {
     var arr = [];
@@ -66,6 +100,9 @@ function printRow(len) {
 }
 function printTringle(size) {
     for (var i = size; i >=1; i--) {
+        printRow(i);
+    }
+    for (var i = 1; i <= size; i++) {
         printRow(i);
     }
 }
