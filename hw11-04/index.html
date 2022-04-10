@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style\style.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <h1>Contact Form</h1>
+        <div><h3>Name:</h3><input type="text" placeholder="name" id="name" ></div>
+        <div><h3>Age:</h3><input type="number" placeholder="age" id="Age" onclick="AgeValidation()"></div>
+        <div><h3>Email:</h3><input type="email" placeholder="email" id="Email"></div>
+        <div><h3>ID:</h3><input type="number" placeholder="id" id="ID" onkeyup="IdValidation()"></div>
+        <div><input type="submit" value="submit"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
